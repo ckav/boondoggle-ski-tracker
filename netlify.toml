@@ -1,0 +1,3 @@
+﻿[build]
+  base = "ski-tracker/"
+  publish = "ski-tracker/"
