@@ -1,0 +1,1 @@
+// Content of service worker
