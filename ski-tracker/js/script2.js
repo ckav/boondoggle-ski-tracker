@@ -1,1 +1,0 @@
-// Content of script2.js

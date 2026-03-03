@@ -1,1 +1,139 @@
-<html>...</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#0a0e17">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Ski Tracker</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/icon-192.png">
+  <link rel="apple-touch-icon" href="img/icon-192.png">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-title">Ski Tracker</div>
+      <div class="header-actions">
+        <div class="battery-indicator" id="battery">
+          <span id="battery-icon">🔋</span>
+          <span id="battery-level"></span>
+        </div>
+        <div class="units-toggle">
+          <button id="unit-metric" class="active">km/h</button>
+          <button id="unit-imperial">mph</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Views -->
+    <main class="views">
+      <!-- Dashboard -->
+      <section class="view active dashboard" id="view-dashboard">
+        <div class="speed-hero">
+          <div class="speed-label">Current Speed</div>
+          <div>
+            <span class="speed-value" id="current-speed">0.0</span>
+            <span class="speed-unit" id="speed-unit">km/h</span>
+          </div>
+          <div class="run-state-badge" id="run-state">IDLE</div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div><span class="stat-value" id="max-speed">0.0</span><span class="stat-unit" id="max-speed-unit">km/h</span></div>
+            <div class="stat-label">Max Speed</div>
+          </div>
+          <div class="stat-card">
+            <div><span class="stat-value" id="avg-speed">0.0</span><span class="stat-unit" id="avg-speed-unit">km/h</span></div>
+            <div class="stat-label">Avg Speed</div>
+          </div>
+          <div class="stat-card">
+            <div><span class="stat-value" id="distance">0.00</span><span class="stat-unit" id="distance-unit">km</span></div>
+            <div class="stat-label">Distance</div>
+          </div>
+          <div class="stat-card">
+            <div><span class="stat-value" id="total-runs">0</span></div>
+            <div class="stat-label">Total Runs</div>
+          </div>
+          <div class="stat-card">
+            <div><span class="stat-value" id="run-time">00:00:00</span></div>
+            <div class="stat-label">Run Time</div>
+          </div>
+          <div class="stat-card">
+            <div><span class="stat-value" id="max-alt">0</span><span class="stat-unit" id="max-alt-unit">m</span></div>
+            <div class="stat-label">Max Altitude</div>
+          </div>
+        </div>
+
+        <div class="stats-grid" style="grid-template-columns: repeat(2, 1fr);">
+          <div class="stat-card">
+            <div><span class="stat-value" id="vertical-drop">0</span><span class="stat-unit" id="vertical-unit">m</span></div>
+            <div class="stat-label">Vertical Drop</div>
+          </div>
+          <div class="stat-card">
+            <div><span class="stat-value" id="total-vertical">0</span><span class="stat-unit" id="total-vertical-unit">m</span></div>
+            <div class="stat-label">Total Vertical</div>
+          </div>
+        </div>
+
+        <div class="track-btn-container">
+          <button class="track-btn" id="track-btn">START</button>
+        </div>
+      </section>
+
+      <!-- Map -->
+      <section class="view" id="view-map">
+        <div id="map-container" style="flex:1; position:relative;">
+          <div class="map-controls">
+            <button class="map-toggle active" id="toggle-trails" data-layer="trails">Trails</button>
+            <button class="map-toggle active" id="toggle-lifts" data-layer="lifts">Lifts</button>
+            <button class="map-toggle active" id="toggle-restaurants" data-layer="restaurants">Food</button>
+          </div>
+          <div id="map"></div>
+        </div>
+      </section>
+
+      <!-- Lifts -->
+      <section class="view" id="view-lifts"></section>
+
+      <!-- Route -->
+      <section class="view" id="view-route"></section>
+
+      <!-- Group -->
+      <section class="view" id="view-group"></section>
+    </main>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+      <button class="nav-btn active" data-view="dashboard">
+        <span class="nav-icon">📊</span>
+        <span>Dashboard</span>
+      </button>
+      <button class="nav-btn" data-view="map">
+        <span class="nav-icon">🗺️</span>
+        <span>Map</span>
+      </button>
+      <button class="nav-btn" data-view="lifts">
+        <span class="nav-icon">🚡</span>
+        <span>Lifts</span>
+      </button>
+      <button class="nav-btn" data-view="route">
+        <span class="nav-icon">🏠</span>
+        <span>Route</span>
+      </button>
+      <button class="nav-btn" data-view="group">
+        <span class="nav-icon">👥</span>
+        <span>Group</span>
+      </button>
+    </nav>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

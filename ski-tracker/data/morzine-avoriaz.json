@@ -1,1 +1,648 @@
-{ /* JSON Content */ }
+{
+  "resort": {
+    "name": "Morzine - Avoriaz",
+    "region": "Portes du Soleil",
+    "country": "France",
+    "center": [46.1796, 6.7092],
+    "zoom": 13
+  },
+  "lifts": [
+    {
+      "id": "lift-01",
+      "name": "Pleney Gondola",
+      "type": "gondola",
+      "status": "open",
+      "capacity": 8,
+      "waitTime": 5,
+      "verticalRise": 540,
+      "coordinates": [[46.1796, 6.7092], [46.1842, 6.7048]]
+    },
+    {
+      "id": "lift-02",
+      "name": "Super Morzine Gondola",
+      "type": "gondola",
+      "status": "open",
+      "capacity": 8,
+      "waitTime": 8,
+      "verticalRise": 620,
+      "coordinates": [[46.1810, 6.7005], [46.1918, 6.7730]]
+    },
+    {
+      "id": "lift-03",
+      "name": "Prodains Cable Car",
+      "type": "cable-car",
+      "status": "open",
+      "capacity": 35,
+      "waitTime": 10,
+      "verticalRise": 700,
+      "coordinates": [[46.1880, 6.7350], [46.1930, 6.7395]]
+    },
+    {
+      "id": "lift-04",
+      "name": "Nyon Gondola",
+      "type": "gondola",
+      "status": "open",
+      "capacity": 6,
+      "waitTime": 7,
+      "verticalRise": 1050,
+      "coordinates": [[46.1796, 6.7092], [46.1710, 6.6920]]
+    },
+    {
+      "id": "lift-05",
+      "name": "Chamossiere Gondola",
+      "type": "gondola",
+      "status": "open",
+      "capacity": 6,
+      "waitTime": 4,
+      "verticalRise": 580,
+      "coordinates": [[46.1918, 6.7730], [46.1985, 6.7810]]
+    },
+    {
+      "id": "lift-06",
+      "name": "Le Fornet Chairlift",
+      "type": "chairlift-6",
+      "status": "open",
+      "capacity": 6,
+      "waitTime": 3,
+      "verticalRise": 320,
+      "coordinates": [[46.1930, 6.7395], [46.1960, 6.7320]]
+    },
+    {
+      "id": "lift-07",
+      "name": "Chavanette Chairlift",
+      "type": "chairlift-6",
+      "status": "open",
+      "capacity": 6,
+      "waitTime": 6,
+      "verticalRise": 450,
+      "coordinates": [[46.1970, 6.7480], [46.2060, 6.7530]]
+    },
+    {
+      "id": "lift-08",
+      "name": "Arare Chairlift",
+      "type": "chairlift-4",
+      "status": "on-hold",
+      "capacity": 4,
+      "waitTime": 0,
+      "verticalRise": 380,
+      "coordinates": [[46.1930, 6.7395], [46.1995, 6.7440]]
+    },
+    {
+      "id": "lift-09",
+      "name": "Les Brochaux Chairlift",
+      "type": "chairlift-6",
+      "status": "open",
+      "capacity": 6,
+      "waitTime": 5,
+      "verticalRise": 410,
+      "coordinates": [[46.1935, 6.7550], [46.2010, 6.7600]]
+    },
+    {
+      "id": "lift-10",
+      "name": "Tour Chairlift",
+      "type": "chairlift-4",
+      "status": "open",
+      "capacity": 4,
+      "waitTime": 3,
+      "verticalRise": 290,
+      "coordinates": [[46.1930, 6.7395], [46.1908, 6.7310]]
+    },
+    {
+      "id": "lift-11",
+      "name": "Prolays Chairlift",
+      "type": "chairlift-4",
+      "status": "open",
+      "capacity": 4,
+      "waitTime": 2,
+      "verticalRise": 250,
+      "coordinates": [[46.1940, 6.7620], [46.1985, 6.7680]]
+    },
+    {
+      "id": "lift-12",
+      "name": "Stade Draglift",
+      "type": "draglift",
+      "status": "open",
+      "capacity": 2,
+      "waitTime": 1,
+      "verticalRise": 120,
+      "coordinates": [[46.1835, 6.7060], [46.1842, 6.7048]]
+    },
+    {
+      "id": "lift-13",
+      "name": "Belvedere Chairlift",
+      "type": "chairlift-4",
+      "status": "closed",
+      "capacity": 4,
+      "waitTime": 0,
+      "verticalRise": 340,
+      "coordinates": [[46.1780, 6.7115], [46.1825, 6.7160]]
+    },
+    {
+      "id": "lift-14",
+      "name": "Atray Chairlift",
+      "type": "chairlift-4",
+      "status": "open",
+      "capacity": 4,
+      "waitTime": 4,
+      "verticalRise": 360,
+      "coordinates": [[46.1770, 6.7000], [46.1730, 6.6950]]
+    },
+    {
+      "id": "lift-15",
+      "name": "Raverette Draglift",
+      "type": "draglift",
+      "status": "open",
+      "capacity": 2,
+      "waitTime": 1,
+      "verticalRise": 100,
+      "coordinates": [[46.1945, 6.7415], [46.1955, 6.7400]]
+    },
+    {
+      "id": "lift-16",
+      "name": "Lac Intrets Chairlift",
+      "type": "chairlift-4",
+      "status": "closed",
+      "capacity": 4,
+      "waitTime": 0,
+      "verticalRise": 280,
+      "coordinates": [[46.2015, 6.7510], [46.2070, 6.7480]]
+    },
+    {
+      "id": "lift-17",
+      "name": "Proclou Chairlift",
+      "type": "chairlift-6",
+      "status": "open",
+      "capacity": 6,
+      "waitTime": 5,
+      "verticalRise": 440,
+      "coordinates": [[46.1870, 6.7200], [46.1920, 6.7350]]
+    },
+    {
+      "id": "lift-18",
+      "name": "Seraussaix Chairlift",
+      "type": "chairlift-4",
+      "status": "open",
+      "capacity": 4,
+      "waitTime": 3,
+      "verticalRise": 350,
+      "coordinates": [[46.1918, 6.7730], [46.1960, 6.7770]]
+    }
+  ],
+  "trails": [
+    {
+      "id": "trail-01",
+      "name": "Piste de la Combe",
+      "difficulty": "blue",
+      "status": "open",
+      "length": 2.1,
+      "verticalDrop": 540,
+      "coordinates": [
+        [46.1842, 6.7048],
+        [46.1838, 6.7055],
+        [46.1828, 6.7062],
+        [46.1815, 6.7070],
+        [46.1803, 6.7080],
+        [46.1796, 6.7092]
+      ]
+    },
+    {
+      "id": "trail-02",
+      "name": "Piste du Pleney",
+      "difficulty": "red",
+      "status": "open",
+      "length": 2.5,
+      "verticalDrop": 540,
+      "coordinates": [
+        [46.1842, 6.7048],
+        [46.1840, 6.7035],
+        [46.1830, 6.7015],
+        [46.1818, 6.7010],
+        [46.1805, 6.7030],
+        [46.1796, 6.7050],
+        [46.1796, 6.7092]
+      ]
+    },
+    {
+      "id": "trail-03",
+      "name": "Piste des Mouilles",
+      "difficulty": "green",
+      "status": "open",
+      "length": 1.4,
+      "verticalDrop": 200,
+      "coordinates": [
+        [46.1842, 6.7048],
+        [46.1840, 6.7058],
+        [46.1838, 6.7065],
+        [46.1835, 6.7060]
+      ]
+    },
+    {
+      "id": "trail-04",
+      "name": "Piste de Nyon",
+      "difficulty": "red",
+      "status": "open",
+      "length": 3.8,
+      "verticalDrop": 1050,
+      "coordinates": [
+        [46.1710, 6.6920],
+        [46.1718, 6.6930],
+        [46.1730, 6.6945],
+        [46.1748, 6.6960],
+        [46.1760, 6.6980],
+        [46.1775, 6.7005],
+        [46.1790, 6.7050],
+        [46.1796, 6.7092]
+      ]
+    },
+    {
+      "id": "trail-05",
+      "name": "Retour Zore",
+      "difficulty": "blue",
+      "status": "open",
+      "length": 3.2,
+      "verticalDrop": 580,
+      "coordinates": [
+        [46.1985, 6.7810],
+        [46.1975, 6.7795],
+        [46.1960, 6.7775],
+        [46.1945, 6.7755],
+        [46.1930, 6.7740],
+        [46.1918, 6.7730]
+      ]
+    },
+    {
+      "id": "trail-06",
+      "name": "Piste des Crots",
+      "difficulty": "blue",
+      "status": "open",
+      "length": 1.8,
+      "verticalDrop": 320,
+      "coordinates": [
+        [46.1960, 6.7320],
+        [46.1955, 6.7335],
+        [46.1948, 6.7350],
+        [46.1942, 6.7370],
+        [46.1935, 6.7385],
+        [46.1930, 6.7395]
+      ]
+    },
+    {
+      "id": "trail-07",
+      "name": "Chavanette (Swiss Wall)",
+      "difficulty": "black",
+      "status": "open",
+      "length": 3.5,
+      "verticalDrop": 650,
+      "coordinates": [
+        [46.2060, 6.7530],
+        [46.2050, 6.7535],
+        [46.2035, 6.7528],
+        [46.2020, 6.7520],
+        [46.2010, 6.7510],
+        [46.1995, 6.7495],
+        [46.1970, 6.7480]
+      ]
+    },
+    {
+      "id": "trail-08",
+      "name": "Piste des Hauts Forts",
+      "difficulty": "black",
+      "status": "open",
+      "length": 2.8,
+      "verticalDrop": 580,
+      "coordinates": [
+        [46.1995, 6.7440],
+        [46.1985, 6.7435],
+        [46.1975, 6.7425],
+        [46.1960, 6.7415],
+        [46.1945, 6.7410],
+        [46.1930, 6.7395]
+      ]
+    },
+    {
+      "id": "trail-09",
+      "name": "Piste des Brochaux",
+      "difficulty": "blue",
+      "status": "open",
+      "length": 2.4,
+      "verticalDrop": 410,
+      "coordinates": [
+        [46.2010, 6.7600],
+        [46.2000, 6.7590],
+        [46.1985, 6.7575],
+        [46.1970, 6.7560],
+        [46.1950, 6.7555],
+        [46.1935, 6.7550]
+      ]
+    },
+    {
+      "id": "trail-10",
+      "name": "Piste de l'Arare",
+      "difficulty": "red",
+      "status": "open",
+      "length": 2.0,
+      "verticalDrop": 380,
+      "coordinates": [
+        [46.1995, 6.7440],
+        [46.1988, 6.7445],
+        [46.1975, 6.7435],
+        [46.1965, 6.7420],
+        [46.1950, 6.7405],
+        [46.1930, 6.7395]
+      ]
+    },
+    {
+      "id": "trail-11",
+      "name": "Piste du Tour",
+      "difficulty": "blue",
+      "status": "open",
+      "length": 1.5,
+      "verticalDrop": 290,
+      "coordinates": [
+        [46.1908, 6.7310],
+        [46.1912, 6.7325],
+        [46.1918, 6.7345],
+        [46.1925, 6.7370],
+        [46.1930, 6.7395]
+      ]
+    },
+    {
+      "id": "trail-12",
+      "name": "Piste des Prolays",
+      "difficulty": "green",
+      "status": "open",
+      "length": 1.3,
+      "verticalDrop": 250,
+      "coordinates": [
+        [46.1985, 6.7680],
+        [46.1978, 6.7670],
+        [46.1968, 6.7655],
+        [46.1955, 6.7640],
+        [46.1940, 6.7620]
+      ]
+    },
+    {
+      "id": "trail-13",
+      "name": "Proclou",
+      "difficulty": "red",
+      "status": "open",
+      "length": 2.6,
+      "verticalDrop": 440,
+      "coordinates": [
+        [46.1920, 6.7350],
+        [46.1912, 6.7330],
+        [46.1900, 6.7290],
+        [46.1890, 6.7250],
+        [46.1878, 6.7220],
+        [46.1870, 6.7200]
+      ]
+    },
+    {
+      "id": "trail-14",
+      "name": "Piste de Seraussaix",
+      "difficulty": "blue",
+      "status": "open",
+      "length": 1.9,
+      "verticalDrop": 350,
+      "coordinates": [
+        [46.1960, 6.7770],
+        [46.1952, 6.7760],
+        [46.1942, 6.7752],
+        [46.1933, 6.7745],
+        [46.1925, 6.7738],
+        [46.1918, 6.7730]
+      ]
+    },
+    {
+      "id": "trail-15",
+      "name": "Piste Stade",
+      "difficulty": "green",
+      "status": "open",
+      "length": 0.5,
+      "verticalDrop": 120,
+      "coordinates": [
+        [46.1842, 6.7048],
+        [46.1840, 6.7052],
+        [46.1838, 6.7056],
+        [46.1835, 6.7060]
+      ]
+    },
+    {
+      "id": "trail-16",
+      "name": "Piste de l'Atray",
+      "difficulty": "red",
+      "status": "open",
+      "length": 2.2,
+      "verticalDrop": 360,
+      "coordinates": [
+        [46.1730, 6.6950],
+        [46.1738, 6.6958],
+        [46.1745, 6.6968],
+        [46.1755, 6.6978],
+        [46.1765, 6.6990],
+        [46.1770, 6.7000]
+      ]
+    },
+    {
+      "id": "trail-17",
+      "name": "Combe de Machon",
+      "difficulty": "black",
+      "status": "open",
+      "length": 2.9,
+      "verticalDrop": 680,
+      "coordinates": [
+        [46.1710, 6.6920],
+        [46.1720, 6.6935],
+        [46.1728, 6.6945],
+        [46.1740, 6.6952],
+        [46.1755, 6.6970],
+        [46.1770, 6.7000]
+      ]
+    },
+    {
+      "id": "trail-18",
+      "name": "Retour Prodains",
+      "difficulty": "blue",
+      "status": "open",
+      "length": 3.6,
+      "verticalDrop": 700,
+      "coordinates": [
+        [46.1930, 6.7395],
+        [46.1925, 6.7390],
+        [46.1915, 6.7380],
+        [46.1905, 6.7370],
+        [46.1895, 6.7362],
+        [46.1885, 6.7355],
+        [46.1880, 6.7350]
+      ]
+    },
+    {
+      "id": "trail-19",
+      "name": "Piste du Lac Intrets",
+      "difficulty": "red",
+      "status": "open",
+      "length": 2.3,
+      "verticalDrop": 280,
+      "coordinates": [
+        [46.2070, 6.7480],
+        [46.2060, 6.7485],
+        [46.2048, 6.7492],
+        [46.2035, 6.7500],
+        [46.2025, 6.7505],
+        [46.2015, 6.7510]
+      ]
+    },
+    {
+      "id": "trail-20",
+      "name": "Piste de la Raverette",
+      "difficulty": "green",
+      "status": "open",
+      "length": 0.6,
+      "verticalDrop": 100,
+      "coordinates": [
+        [46.1955, 6.7400],
+        [46.1952, 6.7405],
+        [46.1949, 6.7410],
+        [46.1945, 6.7415]
+      ]
+    },
+    {
+      "id": "trail-21",
+      "name": "Piste du Belvedere",
+      "difficulty": "red",
+      "status": "closed",
+      "length": 1.7,
+      "verticalDrop": 340,
+      "coordinates": [
+        [46.1825, 6.7160],
+        [46.1818, 6.7150],
+        [46.1808, 6.7138],
+        [46.1798, 6.7128],
+        [46.1788, 6.7120],
+        [46.1780, 6.7115]
+      ]
+    },
+    {
+      "id": "trail-22",
+      "name": "Super Morzine Liaison",
+      "difficulty": "blue",
+      "status": "open",
+      "length": 4.2,
+      "verticalDrop": 620,
+      "coordinates": [
+        [46.1918, 6.7730],
+        [46.1900, 6.7600],
+        [46.1880, 6.7450],
+        [46.1860, 6.7300],
+        [46.1840, 6.7150],
+        [46.1820, 6.7050],
+        [46.1810, 6.7005]
+      ]
+    }
+  ],
+  "basePoints": [
+    {
+      "id": "base-morzine",
+      "name": "Morzine Village",
+      "coordinates": [46.1796, 6.7092],
+      "altitude": 1000,
+      "type": "village"
+    },
+    {
+      "id": "base-avoriaz",
+      "name": "Avoriaz Centre",
+      "coordinates": [46.1930, 6.7395],
+      "altitude": 1800,
+      "type": "village"
+    },
+    {
+      "id": "base-prodains",
+      "name": "Prodains",
+      "coordinates": [46.1880, 6.7350],
+      "altitude": 1100,
+      "type": "village"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "resto-01",
+      "name": "La Terrasse",
+      "coordinates": [46.1793, 6.7088],
+      "altitude": 1000,
+      "cuisine": "French Alpine",
+      "priceRange": "$$",
+      "type": "village",
+      "description": "Classic Savoyard cuisine in Morzine centre with a welcoming terrace overlooking the Pleney slopes"
+    },
+    {
+      "id": "resto-02",
+      "name": "L'Etale",
+      "coordinates": [46.1800, 6.7098],
+      "altitude": 1000,
+      "cuisine": "Pizzeria",
+      "priceRange": "$",
+      "type": "village",
+      "description": "Popular wood-fired pizzeria on the main street in Morzine, family-friendly with generous portions"
+    },
+    {
+      "id": "resto-03",
+      "name": "Le Tremplin",
+      "coordinates": [46.1835, 6.7060],
+      "altitude": 1380,
+      "cuisine": "Mountain restaurant",
+      "priceRange": "$$",
+      "type": "mountain",
+      "description": "Traditional mountain restaurant at the Pleney mid-station with panoramic views of the Dents du Midi"
+    },
+    {
+      "id": "resto-04",
+      "name": "La Combe a Zore",
+      "coordinates": [46.1970, 6.7790],
+      "altitude": 1750,
+      "cuisine": "Savoyard",
+      "priceRange": "$$",
+      "type": "mountain",
+      "description": "Rustic on-mountain chalet near Chamossiere serving hearty tartiflette, fondue, and vin chaud"
+    },
+    {
+      "id": "resto-05",
+      "name": "Chez Nannon",
+      "coordinates": [46.1918, 6.7725],
+      "altitude": 1500,
+      "cuisine": "Crepes",
+      "priceRange": "$",
+      "type": "mountain",
+      "description": "Charming crepe stand at Super Morzine serving sweet and savoury buckwheat galettes"
+    },
+    {
+      "id": "resto-06",
+      "name": "Folie Douce Avoriaz",
+      "coordinates": [46.1935, 6.7410],
+      "altitude": 1800,
+      "cuisine": "Party/Bar",
+      "priceRange": "$$$",
+      "type": "mountain",
+      "description": "The legendary apres-ski venue with live DJs, cabaret acts, and an electric atmosphere on the slopes of Avoriaz"
+    },
+    {
+      "id": "resto-07",
+      "name": "Les Fontaines Blanches",
+      "coordinates": [46.1928, 6.7390],
+      "altitude": 1800,
+      "cuisine": "Fine dining",
+      "priceRange": "$$$",
+      "type": "village",
+      "description": "Elegant fine dining in the heart of Avoriaz featuring creative French cuisine with local seasonal ingredients"
+    },
+    {
+      "id": "resto-08",
+      "name": "Le Yeti",
+      "coordinates": [46.1932, 6.7400],
+      "altitude": 1800,
+      "cuisine": "Burgers/Casual",
+      "priceRange": "$",
+      "type": "village",
+      "description": "Relaxed burger joint in Avoriaz centre, popular with families for its hearty burgers, fries, and craft beers"
+    }
+  ]
+}

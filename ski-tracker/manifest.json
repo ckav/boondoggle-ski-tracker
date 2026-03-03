@@ -1,1 +1,25 @@
-{ /* Manifest Content */ }
+{
+  "name": "Ski Tracker",
+  "short_name": "SkiTrack",
+  "description": "Track your ski runs, speed, and connect with your group on the mountain",
+  "start_url": "/ski-tracker/index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0a0e17",
+  "background_color": "#0a0e17",
+  "icons": [
+    {
+      "src": "img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["sports", "navigation"]
+}
